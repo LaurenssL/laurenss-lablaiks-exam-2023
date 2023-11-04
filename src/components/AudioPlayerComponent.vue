@@ -1,6 +1,6 @@
 <script>
 import { mapState, mapActions } from 'pinia';
-import { usePlayerStore } from '@/stores/player';
+import { usePlayerStore } from '../stores/player';
 import IconPlay from './icons/IconPlay.vue';
 import IconPause from './icons/IconPause.vue';
 import IconNext from './icons/IconNext.vue';
